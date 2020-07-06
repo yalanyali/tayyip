@@ -1,7 +1,7 @@
 # tayyip
 An AI that fixes Tayyip Erdogan.
 
-The UI is a webpage where you can load a Youtube video. When detected, Erdogan's voice gets replaced with silence or the noise of the users choosing, which reduces stress.
+The UI is a webpage where you can load a Youtube video. When detected, Erdogan's voice gets replaced with silence or a noise of users' choosing, which reduces stress.
 
 This is an experimental, relatively simple python machine learning pipeline that extracts Mel Frequency Cepstral Coefficient (MFCC) voice features from Youtube videos and trains a Gradient Boosting algorithm. The training data was around 10 minutes of Tayyip Erdogan speaking in different environments and equivalent time of random people talking. The results were quite acceptable even with a small training data sample but the model can be HIGHLY improved.
 
